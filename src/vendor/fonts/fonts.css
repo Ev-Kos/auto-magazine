@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('SourceSansPro-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('SourceSansPro-Light.ttf') format('ttf');
+}

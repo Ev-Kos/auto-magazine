@@ -1,0 +1,17 @@
+.header__button {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .header__button {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 26px;
+    height: 26px;
+    background-color: inherit;
+    border: none;
+    padding: 0;
+  }
+}
