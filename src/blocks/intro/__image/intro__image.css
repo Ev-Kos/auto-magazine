@@ -1,0 +1,25 @@
+.intro__image {
+  max-width: 740px;
+  width: 100%;
+  max-height: 540px;
+  grid-row: 1/3;
+  grid-column: 2;
+}
+
+@media screen and (max-width: 769px) {
+  .intro__image {
+    max-width: 700px;
+    max-height: 510px;
+    grid-row: 2;
+    grid-column: 1;
+    margin: 100px auto 0;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .intro__image {
+    max-width: 280px;
+    max-height: 202px;
+    margin: 0 auto 0;
+  }
+}

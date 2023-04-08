@@ -1,0 +1,14 @@
+.intro__text {
+  font-size: 19px;
+  line-height: 28px;
+  text-transform: uppercase;
+  max-width: 237px;
+  margin: 0;
+}
+
+@media screen and (max-width: 321px) {
+  .intro__text {
+    font-size: 11px;
+    line-height: 24px;
+  }
+}

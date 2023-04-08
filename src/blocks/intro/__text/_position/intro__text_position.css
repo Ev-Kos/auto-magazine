@@ -1,0 +1,9 @@
+.intro__text_position {
+  display: block;
+}
+
+@media screen and (max-width: 321px) {
+  .intro__text_position {
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+.intro {
+  padding-top: calc(100vw/(1440/150));
+  padding-bottom: calc(100vw/(1440/150));
+  border-bottom: 1px solid #E1FD2C;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 769px) {
+  .intro {
+    padding: 100px 0 101px 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .intro {
+    padding: 60px 0 62px 0;
+  }
+}
